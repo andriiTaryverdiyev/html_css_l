@@ -16,8 +16,8 @@ section[class="to-be-learned"] code {
     background-color: green;
 }
 
-li #special1~code {
-    border: 2px solid blue;
+#special1+li code {
+    border: 2px solid blue
 }
 
 #special2~li {
