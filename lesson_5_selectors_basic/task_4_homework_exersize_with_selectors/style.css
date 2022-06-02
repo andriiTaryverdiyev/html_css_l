@@ -1,0 +1,29 @@
+footer,
+header {
+    border: 3px dashed blue
+}
+
+li {
+    background-color: yellow
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-left: 20px
+}
+
+article[class="new"] {
+    font-size: 24px
+}
+
+li[class="topic"],
+li[class="topic new"],
+li[class="topic most-popular"] {
+    background-color: red
+}
+
+article[class="new posted-today"] {
+    background-color: pink
+}
