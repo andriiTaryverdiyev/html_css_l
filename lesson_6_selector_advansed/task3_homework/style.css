@@ -15,7 +15,7 @@ li[data-description*="even"] {
 }
 
 a[href^="https://"] {
-    background-color: green;
+    color: green;
 }
 
 span[lang*=en] {
