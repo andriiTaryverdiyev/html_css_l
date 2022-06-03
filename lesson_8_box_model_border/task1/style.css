@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    border: solid black 8px;
+    margin: 16px;
+    padding: 16px;
+    height: 128px;
+    width: 512px
+}
+
+.first {
+    box-sizing: content-box;
+    background-color: aquamarine
+}
+
+.second {
+    box-sizing: border-box;
+    background-color: azure
+}
