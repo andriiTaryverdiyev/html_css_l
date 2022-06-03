@@ -1,4 +1,6 @@
 div {
     margin: 20px;
-    border: solid 3px aqua;
+    border: solid 3px;
+    background-color: aqua;
+    padding: 50px;
 }
