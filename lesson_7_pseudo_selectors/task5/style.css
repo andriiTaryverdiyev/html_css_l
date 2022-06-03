@@ -7,6 +7,10 @@ h1 {
 }
 
 h2 {
+    color: orange;
+}
+
+li {
     color: blue;
 }
 
@@ -24,4 +28,13 @@ div>p {
 
 input[type="text"] {
     background-color: grey;
+}
+
+body:nth-child(3)>div:nth-child(2)>p {
+    border: 5px white;
+}
+
+em {
+    color: white;
+    font-size: 20px;
 }
