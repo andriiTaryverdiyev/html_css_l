@@ -1,0 +1,11 @@
+.first {
+    padding: 50px;
+    border: 2px solid black;
+    background-color: pink;
+    border: 50px solid green;
+    margin: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
