@@ -11,7 +11,7 @@ label {
     font-size: 100px
 }
 
-h1::selection {
+h1:hover {
     color: blue;
 }
 
