@@ -38,3 +38,11 @@ em {
     color: white;
     font-size: 20px;
 }
+
+[class="hello"] {
+    background-color: white;
+}
+
+#spetial {
+    border: 2px solid blue;
+}
