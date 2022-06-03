@@ -1,6 +1,10 @@
 div {
-    margin: 20px;
+    margin: 50px;
     border: solid 3px;
     background-color: aqua;
     padding: 50px;
+}
+
+* {
+    box-sizing: border-box;
 }
