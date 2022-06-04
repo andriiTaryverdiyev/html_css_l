@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 header {
     background-color: darkturquoise;
     height: 40px;
@@ -9,6 +5,10 @@ header {
 
 nav {
     height: 40px;
+}
+
+ul {
+    margin: 0px;
 }
 
 li {
