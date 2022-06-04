@@ -6,8 +6,7 @@ header {
     background-color: darkturquoise;
     height: 40px;
     position: fixed;
-    width: 100%;
-    z-index: 1;
+    width: 100%
 }
 
 nav {
@@ -34,8 +33,6 @@ main {
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    margin-left: calc(50%);
-    margin-bottom: calc(50%);
 }
 
 .ear_right {
@@ -67,4 +64,9 @@ main {
     background-color: grey;
     float: left;
     border-radius: 50%;
+}
+
+.content {
+    padding-top: calc(50%);
+    padding-left: calc(50%);
 }
