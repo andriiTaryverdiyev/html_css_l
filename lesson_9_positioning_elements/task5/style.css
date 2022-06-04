@@ -1,6 +1,8 @@
 header {
     background-color: darkturquoise;
     height: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -16,4 +18,27 @@ li {
     color: white;
     display: inline-block;
     line-height: 40px;
+}
+
+main {
+    background-color: beige;
+    height: 5000px;
+}
+
+.head {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.ear {
+    height: 40px;
+    width: 60px;
+    background-color: brown;
 }
