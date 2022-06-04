@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: darkturquoise;
     height: 40px;
@@ -30,10 +34,8 @@ main {
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: relative;
-    top: calc(45%);
-    left: calc(45%);
-    z-index: 0;
+    margin-left: calc(50%);
+    margin-bottom: calc(50%);
 }
 
 .ear_right {
