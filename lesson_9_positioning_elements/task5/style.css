@@ -3,6 +3,7 @@ header {
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 nav {
@@ -29,13 +30,39 @@ main {
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: absolute;
-    left: calc(36%);
-    top: calc(36%);
+    position: relative;
+    top: calc(45%);
+    left: calc(45%);
+    z-index: 0;
 }
 
-.ear {
+.ear_right {
     height: 40px;
     width: 60px;
     background-color: brown;
+    float: right;
+}
+
+.ear_left {
+    height: 40px;
+    width: 60px;
+    background-color: brown;
+    float: left;
+}
+
+.eye_righ {
+    height: 40px;
+    width: 60px;
+    background-color: grey;
+    float: right;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.eye_left {
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    float: left;
+    border-radius: 50%;
 }
