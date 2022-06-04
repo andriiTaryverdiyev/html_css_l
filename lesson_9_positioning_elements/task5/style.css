@@ -30,8 +30,8 @@ main {
     width: 200px;
     background-color: aquamarine;
     position: absolute;
-    left: calc(40%);
-    top: calc(40%);
+    left: calc(36%);
+    top: calc(36%);
 }
 
 .ear {
