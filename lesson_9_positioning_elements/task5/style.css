@@ -3,6 +3,7 @@ header {
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 nav {
@@ -30,11 +31,9 @@ main {
     width: 200px;
     background-color: aquamarine;
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    z-index: 0;
+    left: calc(50%);
+    top: calc(50%);
 }
 
 .ear {
