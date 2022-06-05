@@ -10,14 +10,16 @@ header {
     z-index: 1;
 }
 
+nav {}
+
 ul {
-    line-height: 50%;
+    line-height: 10px;
 }
 
 li {
-    display: inline-block;
-    color: white;
     margin-left: 16px;
+    color: white;
+    display: inline-block;
 }
 
 main {
