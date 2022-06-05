@@ -35,38 +35,45 @@ main {
     width: 200px;
     background-color: aquamarine;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: calc( 50% - 100px);
+    left: calc(50% - 100px);
 }
 
 .ear_right {
-    height: 40px;
-    width: 60px;
+    height: 60px;
+    width: 40px;
     background-color: brown;
-    float: right;
+    position: relative;
+    bottom: 60px;
+    left: 200px;
 }
 
 .ear_left {
-    height: 40px;
-    width: 60px;
+    height: 60px;
+    width: 40px;
     background-color: brown;
-    float: left;
+    position: relative;
+    bottom: 120px;
+    right: 40px;
 }
 
-.eye_righ {
-    height: 40px;
-    width: 60px;
+.eye_right {
+    height: 30px;
+    width: 30px;
     background-color: grey;
-    float: right;
+    position: absolute;
+    right: 40px;
+    top: 80px;
     border-radius: 50%;
-    padding-bottom: 20px;
 }
 
 .eye_left {
     height: 30px;
     width: 30px;
     background-color: grey;
-    float: left;
+    position: absolute;
+    left: 40px;
+    top: 80px;
     border-radius: 50%;
 }
 
