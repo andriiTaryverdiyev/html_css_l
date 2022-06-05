@@ -11,14 +11,13 @@ header {
 }
 
 ul {
-    display: inline-block;
     line-height: 50%;
 }
 
 li {
     display: inline-block;
-    margin-left: 16px;
     color: white;
+    margin-left: 16px;
 }
 
 main {
