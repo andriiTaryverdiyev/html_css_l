@@ -6,7 +6,8 @@ header {
     background-color: darkturquoise;
     height: 40px;
     position: fixed;
-    width: 100%
+    width: 100%;
+    z-index: 1;
 }
 
 nav {
@@ -33,9 +34,9 @@ main {
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: inherit;
-    margin-left: 350px;
-    padding-top: 200px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
 }
 
 .ear_right {
