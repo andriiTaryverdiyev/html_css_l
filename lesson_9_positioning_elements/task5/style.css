@@ -19,6 +19,7 @@ ul {
 }
 
 li {
+    left: 16px;
     color: white;
     display: inline-block;
     line-height: 40px;
