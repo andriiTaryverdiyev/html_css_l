@@ -10,16 +10,12 @@ header {
     z-index: 1;
 }
 
-nav {
-    margin-left: 16px;
-}
-
 ul {
     margin: 0px;
 }
 
 li {
-    left: 16px;
+    margin-left: 16px;
     color: white;
     display: inline-block;
     line-height: 40px;
