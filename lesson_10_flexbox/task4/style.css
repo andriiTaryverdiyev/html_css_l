@@ -1,3 +1,7 @@
+body {
+    display: flex;
+}
+
 .block {
     height: 300px;
     flex-grow: 1;
