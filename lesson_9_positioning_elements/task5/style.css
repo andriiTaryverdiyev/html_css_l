@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 header {
     background-color: darkturquoise;
     height: 40px;
@@ -11,15 +7,16 @@ header {
 }
 
 ul {
-    margin: 0px;
-    margin-left: 16px;
+    margin: 0px
 }
 
-li {
+.nav-item {
+    box-sizing: border-box;
     color: white;
     margin-left: 16px;
     line-height: 40px;
     float: left;
+    list-style-type: none;
 }
 
 main {
@@ -73,5 +70,3 @@ main {
     top: 80px;
     border-radius: 50%;
 }
-
-.content {}
