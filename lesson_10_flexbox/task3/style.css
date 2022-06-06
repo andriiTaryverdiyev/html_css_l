@@ -53,7 +53,8 @@ aside {
 .hnews {
     display: flex;
     justify-content: center;
-    margin: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 ul {
