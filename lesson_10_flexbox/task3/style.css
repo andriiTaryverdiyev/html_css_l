@@ -1,0 +1,60 @@
+header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_elem {
+    margin-left: 16px;
+}
+
+.footer {
+    background-color: green;
+    height: 40px;
+    display: flex;
+}
+
+.footer_text {
+    margin: auto;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+section {
+    display: flex;
+    flex-grow: 1;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 200px;
+    background-color: grey;
+}
+
+.hnews {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    height: 40px;
+    margin-left: 16px;
+}
