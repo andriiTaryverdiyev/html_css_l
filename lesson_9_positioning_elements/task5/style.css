@@ -12,13 +12,14 @@ header {
 
 ul {
     margin: 0px;
+    margin-left: 16px;
 }
 
 li {
-    margin-left: 16px;
     color: white;
-    display: inline-block;
+    margin-left: 16px;
     line-height: 40px;
+    float: left;
 }
 
 main {
