@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
 .dropdown {
-    display: flex;
     margin: 16px;
 }
 
