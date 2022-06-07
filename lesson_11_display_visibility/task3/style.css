@@ -1,4 +1,5 @@
 .dropdown {
+    display: flex;
     margin: 16px;
 }
 
