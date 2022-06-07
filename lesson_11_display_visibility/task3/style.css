@@ -3,6 +3,7 @@
 }
 
 .dropdown {
+    position: relative;
     margin: 16px;
     color: white;
     background-color: darkgreen;
