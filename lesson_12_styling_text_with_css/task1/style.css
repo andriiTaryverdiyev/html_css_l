@@ -1,6 +1,7 @@
 section {
     margin: 32px;
-    font-family: roboto, sans-serif
+    font-family: roboto, sans-serif;
+    font-size: 18px;
 }
 
 h1 {
@@ -15,6 +16,7 @@ p {
 
 .technology {
     font-weight: 900;
+    font-size: 24px;
     letter-spacing: 3px;
     opacity: 0.8;
     text-decoration: underline;
