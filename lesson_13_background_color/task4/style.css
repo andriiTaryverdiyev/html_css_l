@@ -1,13 +1,9 @@
-div {
-    display: flex;
-    min-height: 200px;
-    min-width: 200px;
-    max-height: 200px;
-    max-width: 200px;
-}
+.galery {}
 
 .image {
-    float: left;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
     margin: 16px;
     background-size: contain;
     border: 1px dotted grey;
