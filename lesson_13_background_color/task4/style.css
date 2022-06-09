@@ -1,10 +1,10 @@
-.galery {}
-
 .image {
     display: inline-block;
+    position: relative;
     height: 200px;
     width: 200px;
-    margin: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
     background-size: contain;
     border: 1px dotted grey;
     background-repeat: no-repeat;
