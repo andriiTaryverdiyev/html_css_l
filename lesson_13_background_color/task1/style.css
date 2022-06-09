@@ -9,4 +9,5 @@ div {
     padding-top: 32px;
     text-align: center;
     box-sizing: border-box;
+    background-size: cover;
 }
