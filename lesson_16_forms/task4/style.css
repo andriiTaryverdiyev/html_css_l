@@ -2,19 +2,15 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    background-color: bisque;
-    height: 100vh;
-}
-
 input {
     height: 32px;
 }
 
 .page {
     display: flex;
+    justify-content: center;
+    background-color: bisque;
+    height: 100vh;
 }
 
 form {
@@ -40,4 +36,12 @@ div {
 
 label {
     padding-bottom: 4px;
+}
+
+input {
+    display: inline;
+    height: 32px;
+    width: 98%;
+    flex-grow: 1;
+    padding-top: 8px;
 }
