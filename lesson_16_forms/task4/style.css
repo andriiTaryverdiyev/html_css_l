@@ -39,7 +39,6 @@ div {
 .form-input {
     display: block;
     height: 32px;
-    padding-top: 8px;
     flex: 1;
     width: 100%;
 }
@@ -54,6 +53,7 @@ div {
 
 .label {
     display: block;
+    padding-top: 8px;
     padding-bottom: 4px;
 }
 
