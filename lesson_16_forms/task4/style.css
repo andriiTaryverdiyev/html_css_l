@@ -32,16 +32,25 @@ form {
 }
 
 div {
+    display: block;
     padding-bottom: 8px;
 }
 
-label {
-    padding-bottom: 4px;
-}
-
-input {
+.form-input {
     display: inline;
     height: 32px;
-    flex-grow: 1;
+    flex-grow: 2;
     padding-top: 8px;
+}
+
+.submit-button {
+    height: 32px;
+    background-color: #ff7f50;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+}
+
+.label {
+    padding-bottom: 4px;
 }
