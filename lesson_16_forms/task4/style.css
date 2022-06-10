@@ -54,3 +54,7 @@ div {
 .label {
     padding-bottom: 4px;
 }
+
+.label:invalid {
+    border: #ff0000 3px;
+}
