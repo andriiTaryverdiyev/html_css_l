@@ -37,10 +37,11 @@ div {
 }
 
 .form-input {
-    display: inline;
+    display: block;
     height: 32px;
-    flex-grow: 2;
     padding-top: 8px;
+    flex: 1;
+    width: 100%;
 }
 
 .submit-button {
@@ -52,6 +53,7 @@ div {
 }
 
 .label {
+    display: block;
     padding-bottom: 4px;
 }
 
