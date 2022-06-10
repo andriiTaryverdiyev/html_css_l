@@ -3,21 +3,24 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
     background-color: bisque;
+    height: 100vh;
 }
 
 input {
-    position: relative;
-    right: 8px;
-    width: 284px;
     height: 32px;
-    border-radius: 4px;
+}
+
+.page {
+    display: flex;
 }
 
 form {
-    position: absolute;
-    left: calc(50% - 150px);
-    top: calc(50% - 135px);
+    align-items: center;
+    display: block;
+    margin: auto;
     background-color: aqua;
     font-size: 16px;
     font-family: monospace;
