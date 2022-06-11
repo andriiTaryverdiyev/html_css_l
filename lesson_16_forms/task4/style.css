@@ -41,8 +41,7 @@ div {
     flex: 1;
     width: 100%;
     outline: none;
-    padding: 4px;
-    padding-top: 8px;
+    margin-top: 8px;
 }
 
 .submit-button {
@@ -55,8 +54,7 @@ div {
 
 .label {
     display: block;
-    padding-top: 8px;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .label:invalid {
