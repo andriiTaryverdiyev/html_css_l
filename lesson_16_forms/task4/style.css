@@ -40,7 +40,7 @@ div {
     height: 32px;
     width: 100%;
     outline: none;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 .submit-button {
@@ -54,7 +54,6 @@ div {
 
 .label {
     display: block;
-    margin-bottom: 4px;
 }
 
 .label:invalid {
