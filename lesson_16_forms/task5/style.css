@@ -6,8 +6,14 @@ form {
     margin: 32px;
 }
 
-input {
-    margin: 8px;
+input,
+div,
+textarea,
+select {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     display: block;
 }
 
