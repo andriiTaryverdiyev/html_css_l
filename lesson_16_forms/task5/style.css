@@ -10,3 +10,7 @@ input {
     margin: 8px;
     display: block;
 }
+
+.laguage {
+    display: flex;
+}
