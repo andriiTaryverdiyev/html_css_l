@@ -59,6 +59,6 @@ div {
     display: block;
 }
 
-.label:invalid {
-    border: #ff0000 3px;
+input:invalid {
+    border: #ff0000 3px solid;
 }
