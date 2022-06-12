@@ -3,14 +3,13 @@ form {
     box-sizing: border-box;
 }
 
+div,
 .block,
 textarea,
 select {
     margin: 8px;
-    display: block;
 }
 
-div,
-input {
-    margin: 8px;
+.block {
+    display: block;
 }
