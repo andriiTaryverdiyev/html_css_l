@@ -3,14 +3,14 @@ form {
     box-sizing: border-box;
 }
 
-input,
-div,
+.block,
 textarea,
 select {
     margin: 8px;
     display: block;
 }
 
-.laguage {
-    display: flex;
+div,
+input {
+    margin: 8px;
 }
