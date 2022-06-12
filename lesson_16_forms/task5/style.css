@@ -3,13 +3,6 @@ form {
     box-sizing: border-box;
 }
 
-div,
-.block,
-textarea,
-select {
+div {
     margin: 8px;
-}
-
-.block {
-    display: block;
 }
