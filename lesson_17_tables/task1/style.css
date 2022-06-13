@@ -17,6 +17,7 @@ table {
 }
 
 th,
-tr {
+tr,
+td {
     padding: 4px;
 }
