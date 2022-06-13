@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 500px;
+    margin: 16px;
+}
+
+th,
+tr,
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+th,
+tr {
+    padding: 4px;
+}
