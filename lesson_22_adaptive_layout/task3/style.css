@@ -3,10 +3,12 @@ main {
 }
 
 picture {
+    display: flex;
     max-width: 100%;
     margin: auto;
 }
 
 img {
+    margin: auto;
     max-width: 100%;
 }
