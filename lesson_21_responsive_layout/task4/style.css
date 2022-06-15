@@ -34,7 +34,6 @@ body {
 main {
     display: flex;
     height: 100%;
-    font-size: 1.25em;
 }
 
 .navigation {
@@ -45,6 +44,7 @@ main {
 .section {
     width: 60%;
     padding: 0.5em;
+    font-size: 1.25em;
 }
 
 .news {
