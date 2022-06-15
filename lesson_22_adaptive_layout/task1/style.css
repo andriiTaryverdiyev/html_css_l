@@ -20,6 +20,9 @@
     .square {
         background-color: #8a2be2
     }
+}
+
+@media screen and (orientation:portrait) {
     .container {
         flex-direction: column;
     }
