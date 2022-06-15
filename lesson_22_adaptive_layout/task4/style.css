@@ -8,7 +8,6 @@ html {
 }
 
 .header {
-    display: flex;
     height: 3em;
     padding-left: 1em;
     padding-right: 1em;
@@ -18,12 +17,11 @@ html {
 button {
     border: none;
     line-height: 3em;
+    outline: none;
+    background: none;
 }
 
 i {
     font-size: 2em;
     padding: 0;
-    border: none;
-    outline: none;
-    background: none;
 }
