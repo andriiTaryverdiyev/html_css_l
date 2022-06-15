@@ -10,12 +10,12 @@ html {
 .header {
     display: flex;
     height: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
     background-color: #eee;
 }
 
 button {
+    display: flex;
     align-items: center;
     border: none;
     line-height: 3em;
@@ -26,6 +26,8 @@ button {
 }
 
 i {
+    display: flex;
+    align-items: center;
     font-size: 2em;
     padding: 0;
 }
