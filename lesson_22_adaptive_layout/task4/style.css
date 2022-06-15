@@ -41,7 +41,18 @@ i {
 }
 
 .nav-list-item {
+    display: flex;
     background-color: #808080;
     color: white;
     margin-bottom: 0.5em;
+    line-height: 2em;
+}
+
+.nav-list-link {
+    margin-left: 0.5em;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
