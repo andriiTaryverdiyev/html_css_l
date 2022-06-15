@@ -39,17 +39,17 @@ main {
 
 .navigation {
     width: 20%;
-    margin: 0.5em;
+    padding: 0.5em;
 }
 
 .section {
     width: 60%;
-    margin: 0.5em;
+    padding: 0.5em;
 }
 
 .news {
     width: 20%;
-    margin: 0.5em;
+    padding: 0.5em;
 }
 
 .units-list {
@@ -79,6 +79,7 @@ main {
     color: white;
     line-height: 2em;
     margin-bottom: 0.5em;
+    padding: 0;
 }
 
 .nav-list-link {
@@ -89,4 +90,5 @@ main {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    padding: 0;
 }
