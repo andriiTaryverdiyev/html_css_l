@@ -16,7 +16,7 @@ html {
 }
 
 button {
-    margin: auto;
+    align-items: center;
     border: none;
     line-height: 3em;
     outline: none;
@@ -27,4 +27,5 @@ button {
 
 i {
     font-size: 2em;
+    padding: 0;
 }
