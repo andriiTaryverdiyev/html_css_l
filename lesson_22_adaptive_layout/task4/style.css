@@ -10,7 +10,8 @@ html {
 .header {
     display: flex;
     height: 3em;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     background-color: #eee;
 }
 
@@ -30,4 +31,17 @@ i {
     align-items: center;
     font-size: 2em;
     padding: 0;
+}
+
+.nav-list {
+    padding: 0.5em;
+    list-style-type: none;
+    width: 20vw;
+    text-decoration: none;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    color: white;
+    margin-bottom: 0.5em;
 }
