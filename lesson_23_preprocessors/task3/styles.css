@@ -15,8 +15,8 @@
   list-style-type: none;
 }
 .menu__item-text {
-  display: flex;
   line-height: 3em;
+  max-width: 100%;
 }
 
 .menu__item {
@@ -42,10 +42,10 @@
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   list-style-type: none;
   color: #fff;
-  min-width: 120px;
   z-index: 1;
 }
 .submenu__item {
+  min-width: 120px;
   padding: 8px;
 }
 .submenu__item:hover {
