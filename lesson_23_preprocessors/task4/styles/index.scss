@@ -1,0 +1,29 @@
+@import 'breakpoints.scss';
+@import 'layout.scss';
+@media screen and (max-width: 600px) {
+    .product {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .product {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: $large) {
+    .content {
+        display: flex;
+    }
+    .product {
+        display: flex;
+        flex-direction: row;
+        flex: 2;
+    }
+    .news {
+        flex: 1;
+    }
+}
