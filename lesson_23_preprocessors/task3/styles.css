@@ -21,16 +21,20 @@
 .menu__item {
   padding-left: 8px;
   padding-right: 8px;
+  color: white;
 }
 .menu__item:hover {
   background-color: #9acd32;
-  color: white;
 }
 .menu__item_active {
   color: yellow;
 }
+.menu__item_active:hover .submenu {
+  visibility: visible;
+}
 
 .submenu {
+  visibility: hidden;
   margin: 0;
   padding: 0;
   background-color: #ff7f50;
