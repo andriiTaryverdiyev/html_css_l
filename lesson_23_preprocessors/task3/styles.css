@@ -31,11 +31,11 @@
   color: yellow;
 }
 .menu__item_active:hover .submenu {
-  visibility: visible;
+  display: block;
 }
 
 .submenu {
-  visibility: hidden;
+  display: none;
   margin: 0;
   padding: 0;
   background-color: #ff7f50;
@@ -45,8 +45,11 @@
   z-index: 1;
 }
 .submenu__item {
+  position: relative;
+  display: block;
   min-width: 120px;
-  padding: 8px;
+  line-height: 3em;
+  padding: 0 8px;
 }
 .submenu__item:hover {
   color: black;
