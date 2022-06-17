@@ -14,10 +14,10 @@
         color: $text-color-secondary;
         padding: $unit;
         margin-left: $unit;
-        font-size: 700;
+        font-weight: 700;
         cursor: pointer;
         background-color: $color-secondary;
-        &_hover {
+        &:hover {
             opacity: 0.7;
         }
         &_selected {
