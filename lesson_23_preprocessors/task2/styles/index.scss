@@ -18,6 +18,9 @@ body {
     @include for-middle {
         background-color: #8a2be2;
     }
+    @include for-big {
+        background-color: #a61;
+    }
     @include for-large {
         background-color: #c47;
     }

@@ -8,7 +8,13 @@ $lg:1200px;
 }
 
 @mixin for-middle {
-    @media screen and (min-width: $mdl) {
+    @media screen and (min-width: $sm) and (max-width: $mdl-1) {
+        @content;
+    }
+}
+
+@mixin for-big {
+    @media screen and (min-width: $mdl-1) and (max-width: $lg-1) {
         @content;
     }
 }
